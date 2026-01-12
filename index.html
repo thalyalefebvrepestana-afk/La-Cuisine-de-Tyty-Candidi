@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>La Cuisine de Tyty</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Site de recettes inspiré, simple et original — La Cuisine de Tyty.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">La Cuisine de Tyty</h1>
+      <nav class="nav">
+        <a href="#">Accueil</a>
+        <a href="#recipes">Recettes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Recettes simples, saveurs authentiques</h2>
+        <p>Des idées de plats rapides et gourmands pour tous les jours.</p>
+        <div class="search-row">
+          <input id="search" type="search" placeholder="Rechercher une recette, ingrédient...">
+          <select id="categoryFilter">
+            <option value="all">Toutes catégories</option>
+            <option value="entrée">Entrées</option>
+            <option value="plat">Plats</option>
+            <option value="dessert">Desserts</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section id="recipes" class="container">
+      <h3>Recettes populaires</h3>
+      <div id="recipesGrid" class="grid"></div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>Envie de partager une recette ou d'une suggestion ? Écris-nous.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 La Cuisine de Tyty — Créations originales</div>
+  </footer>
+
+  <div id="recipeModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

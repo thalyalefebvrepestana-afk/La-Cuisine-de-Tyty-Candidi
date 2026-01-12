@@ -1,0 +1,39 @@
+:root{
+  --bg:#faf8f5;
+  --accent:#c94f39;
+  --muted:#6b6b6b;
+  --card:#ffffff;
+  --radius:10px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);color:#222;margin:0}
+.container{max-width:1000px;margin:0 auto;padding:1rem}
+.site-header{background:linear-gradient(90deg,#fff 0%, #fff 60%);border-bottom:1px solid #eee}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
+.logo{font-size:1.25rem;color:var(--accent);margin:0}
+.nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
+.hero{padding:2rem 0;text-align:center}
+.hero h2{margin:0 0 .25rem;font-size:1.6rem}
+.hero p{margin:0 0 1rem;color:var(--muted)}
+.search-row{display:flex;gap:.5rem;justify-content:center}
+#search{padding:.6rem .8rem;border-radius:6px;border:1px solid #ddd;min-width:220px}
+#categoryFilter{padding:.6rem;border-radius:6px;border:1px solid #ddd}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.card{background:var(--card);padding:1rem;border-radius:var(--radius);box-shadow:0 6px 18px rgba(27,27,27,.06);display:flex;flex-direction:column;gap:.5rem}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.card h4{margin:.25rem 0 .1rem;font-size:1rem}
+.card p{margin:0;color:var(--muted);font-size:.9rem}
+.card .meta{display:flex;justify-content:space-between;align-items:center;margin-top:auto}
+.btn{background:var(--accent);color:#fff;padding:.5rem .7rem;border-radius:8px;border:0;cursor:pointer}
+.site-footer{padding:1rem 0;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid #eee;background:#fff}
+.contact{padding:2rem 0}
+
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.35);padding:1rem}
+.modal[aria-hidden="false"]{display:flex}
+.modal-content{background:var(--card);max-width:760px;width:100%;padding:1rem;border-radius:12px;position:relative}
+.close{position:absolute;right:12px;top:8px;background:transparent;border:0;font-size:1.5rem;cursor:pointer}
+
+@media (max-width:600px){
+  .hero h2{font-size:1.25rem}
+  .card img{height:120px}
+}
