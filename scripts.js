@@ -9,7 +9,7 @@ const recipes = [
   },
   {
     id:2,
-    title:"Pâtes Bolognese maison",
+    title:"Pâtes Bolognaise maison",
     category:"plat",
     time:"35 min",
     excerpt:"Une sauce généreuse et authentique qui ravit tous les palais.",
@@ -134,6 +134,70 @@ const recipes = [
     time:"20 min",
     excerpt:"Champignons à la crème fraîche, un classique réconfortant.",
     img:"https://images.unsplash.com/photo-1621371265537-b65dc338eb1e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:18,
+    title:"Pâtes à la Norma",
+    category:"plat",
+    time:"25 min",
+    excerpt:"Aubergines, tomates et ricotta, une spécialité sicilienne.",
+    img:"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:19,
+    title:"Pâtes Cacio e Pepe",
+    category:"plat",
+    time:"12 min",
+    excerpt:"Fromage et poivre pour une saveur intense et minimaliste.",
+    img:"https://images.unsplash.com/photo-1645894002002-41d11a13cd32?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:20,
+    title:"Pâtes sauce blanc de poisson",
+    category:"plat",
+    time:"20 min",
+    excerpt:"Crème légère et filet de poisson blanc, raffiné et simple.",
+    img:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:21,
+    title:"Bruschetta tomate et ail",
+    category:"entrée",
+    time:"15 min",
+    excerpt:"Tranches de pain grillées, tomates fraîches et ail.",
+    img:"https://images.unsplash.com/photo-1590599810694-b5ac4dd0b988?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:22,
+    title:"Crème brûlée vanille",
+    category:"dessert",
+    time:"30 min +4h repos",
+    excerpt:"Dessert classique française, crème riche et caramel croustillant.",
+    img:"https://images.unsplash.com/photo-1488477181946-6558a6b022e3?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:23,
+    title:"Risotto aux champignons",
+    category:"plat",
+    time:"30 min",
+    excerpt:"Riz crémeux, champignons frais et parmesan.",
+    img:"https://images.unsplash.com/photo-1621371265537-b65dc338eb1e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:24,
+    title:"Soupe à l'oignon gratinée",
+    category:"entrée",
+    time:"40 min",
+    excerpt:"Oignons caramélisés, bouillon riche et fromage gratiné.",
+    img:"https://images.unsplash.com/photo-1547592166-7aae4d755744?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  {
+    id:25,
+    title:"Pavlova aux fruits frais",
+    category:"dessert",
+    time:"45 min +1h repos",
+    excerpt:"Meringue croustillante, crème et fruits colorés.",
+    img:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
   }
 ];
 
