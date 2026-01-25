@@ -5,7 +5,7 @@ const recipes = [
     category:"plat",
     time:"15 min",
     excerpt:"La vraie recette italienne, simple et savoureuse.",
-    img:"https://images.pixabay.com/photos/2019/02/22/19/14/pasta-carbonara-3974645-640.jpg"
+    img:"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
   },
   {
     id:2,
@@ -13,7 +13,7 @@ const recipes = [
     category:"plat",
     time:"35 min",
     excerpt:"Une sauce généreuse et authentique qui ravit tous les palais.",
-    img:"https://images.pixabay.com/photos/2017/09/04/02/13/pasta-bolognese-2712711-640.jpg"
+    img:"https://images.unsplash.com/photo-1612874742237-6526221fcf4f?w=400&h=300&fit=crop"
   },
   {
     id:3,
@@ -21,7 +21,7 @@ const recipes = [
     category:"plat",
     time:"10 min",
     excerpt:"Ail et huile d'olive, la recette la plus rapide et légère.",
-    img:"https://images.pixabay.com/photos/2016/07/29/19/42/pasta-1551681-640.jpg"
+    img:"https://images.unsplash.com/photo-1645112411341-6c4ee32510c8?w=400&h=300&fit=crop"
   },
   {
     id:4,
@@ -29,7 +29,7 @@ const recipes = [
     category:"plat",
     time:"20 min",
     excerpt:"Tomates et crème pour un plat doux et réconfortant.",
-    img:"https://images.pixabay.com/photos/2017/09/16/16/40/pasta-2755620-640.jpg"
+    img:"https://images.unsplash.com/photo-1621996346564-bc2e59a22b7d?w=400&h=300&fit=crop"
   },
   {
     id:5,
@@ -37,7 +37,7 @@ const recipes = [
     category:"plat",
     time:"15 min",
     excerpt:"Basilic frais, pignons et parmesan pour un goût explosif.",
-    img:"https://images.pixabay.com/photos/2018/07/26/20/04/pesto-3563617-640.jpg"
+    img:"https://images.unsplash.com/photo-1621371265537-b65dc338eb1e?w=400&h=300&fit=crop"
   },
   {
     id:6,
@@ -45,7 +45,7 @@ const recipes = [
     category:"plat",
     time:"25 min",
     excerpt:"Moules, crevettes et pétoncles pour un festin en 25 min.",
-    img:"https://images.pixabay.com/photos/2019/10/23/19/36/seafood-pasta-4572201-640.jpg"
+    img:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
   },
   {
     id:7,
@@ -53,7 +53,7 @@ const recipes = [
     category:"plat",
     time:"18 min",
     excerpt:"Champignons grillés remplacent le bacon pour une version légère.",
-    img:"https://images.pixabay.com/photos/2017/06/06/22/05/pasta-2378729-640.jpg"
+    img:"https://images.unsplash.com/photo-1626104016173-c7b4bb4d4800?w=400&h=300&fit=crop"
   },
   {
     id:8,
@@ -61,7 +61,7 @@ const recipes = [
     category:"plat",
     time:"12 min",
     excerpt:"Recette minimaliste et délicieuse pour une faim pressée.",
-    img:"https://images.pixabay.com/photos/2019/01/22/19/10/pasta-3948306-640.jpg"
+    img:"https://images.unsplash.com/photo-1645894002002-41d11a13cd32?w=400&h=300&fit=crop"
   },
   {
     id:9,
@@ -69,7 +69,7 @@ const recipes = [
     category:"plat",
     time:"20 min",
     excerpt:"Sauce crémeuse tomate-vodka pour les soirs chic en semaine.",
-    img:"https://images.pixabay.com/photos/2017/03/23/19/57/food-2169308-640.jpg"
+    img:"https://images.unsplash.com/photo-1621996346564-bc2e59a22b7d?w=400&h=300&fit=crop"
   },
   {
     id:10,
@@ -77,7 +77,7 @@ const recipes = [
     category:"plat",
     time:"22 min",
     excerpt:"Creamy, healthy, et prête en moins de 25 minutes.",
-    img:"https://images.pixabay.com/photos/2018/05/01/22/05/spaghetti-3366400-640.jpg"
+    img:"https://images.unsplash.com/photo-1621371265537-b65dc338eb1e?w=400&h=300&fit=crop"
   },
   {
     id:11,
@@ -85,7 +85,7 @@ const recipes = [
     category:"entrée",
     time:"30 min",
     excerpt:"Un velouté doux, réchauffé par une pointe de gingembre.",
-    img:"https://images.pixabay.com/photos/2019/04/11/14/13/soup-4120626-640.jpg"
+    img:"https://images.unsplash.com/photo-1547592166-7aae4d755744?w=400&h=300&fit=crop"
   },
   {
     id:12,
@@ -93,7 +93,7 @@ const recipes = [
     category:"entrée",
     time:"10 min",
     excerpt:"Tomate, mozzarella, basilic — classique intemporel.",
-    img:"https://images.pixabay.com/photos/2018/02/23/07/27/mozzarella-3174128-640.jpg"
+    img:"https://images.unsplash.com/photo-1599599810694-b5ac4dd0b988?w=400&h=300&fit=crop"
   },
   {
     id:13,
@@ -101,7 +101,7 @@ const recipes = [
     category:"dessert",
     time:"25 min",
     excerpt:"Gâteau fondant, cœur coulant — prêt en 25 minutes.",
-    img:"https://images.pixabay.com/photos/2016/09/13/09/06/molten-1666901-640.jpg"
+    img:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop"
   },
   {
     id:14,
@@ -109,7 +109,7 @@ const recipes = [
     category:"dessert",
     time:"30 min +4h repos",
     excerpt:"Crème italienne lisse et délicate, léger comme un nuage.",
-    img:"https://images.pixabay.com/photos/2019/11/20/20/17/panna-cotta-4640315-640.jpg"
+    img:"https://images.unsplash.com/photo-1488477181946-6558a6b022e3?w=400&h=300&fit=crop"
   },
   {
     id:15,
@@ -117,7 +117,7 @@ const recipes = [
     category:"dessert",
     time:"25 min +4h repos",
     excerpt:"Le dessert italien par excellence, café et mascarpone.",
-    img:"https://images.pixabay.com/photos/2017/07/31/20/17/tiramisu-2559400-640.jpg"
+    img:"https://images.unsplash.com/photo-1571115764595-644a12c7aed5?w=400&h=300&fit=crop"
   },
   {
     id:16,
@@ -125,7 +125,7 @@ const recipes = [
     category:"plat",
     time:"18 min",
     excerpt:"Tomate, guanciale et fromage pour une saveur unique romaine.",
-    img:"https://images.pixabay.com/photos/2017/09/04/02/13/pasta-bolognese-2712711-640.jpg"
+    img:"https://images.unsplash.com/photo-1645112411341-6c4ee32510c8?w=400&h=300&fit=crop"
   },
   {
     id:17,
@@ -133,7 +133,7 @@ const recipes = [
     category:"plat",
     time:"20 min",
     excerpt:"Champignons à la crème fraîche, un classique réconfortant.",
-    img:"https://images.pixabay.com/photos/2016/10/25/13/29/pasta-mushroom-1768711-640.jpg"
+    img:"https://images.unsplash.com/photo-1626104016173-c7b4bb4d4800?w=400&h=300&fit=crop"
   },
   {
     id:18,
@@ -141,7 +141,7 @@ const recipes = [
     category:"plat",
     time:"25 min",
     excerpt:"Aubergines, tomates et ricotta, une spécialité sicilienne.",
-    img:"https://images.pixabay.com/photos/2017/05/01/09/12/eggplant-2276670-640.jpg"
+    img:"https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
   },
   {
     id:19,
@@ -149,7 +149,7 @@ const recipes = [
     category:"plat",
     time:"12 min",
     excerpt:"Fromage et poivre pour une saveur intense et minimaliste.",
-    img:"https://images.pixabay.com/photos/2016/07/29/19/42/pasta-1551681-640.jpg"
+    img:"https://images.unsplash.com/photo-1645112411341-6c4ee32510c8?w=400&h=300&fit=crop"
   },
   {
     id:20,
@@ -157,7 +157,7 @@ const recipes = [
     category:"plat",
     time:"20 min",
     excerpt:"Crème légère et filet de poisson blanc, raffiné et simple.",
-    img:"https://images.pixabay.com/photos/2017/09/16/16/39/pasta-2755618-640.jpg"
+    img:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
   },
   {
     id:21,
@@ -165,7 +165,7 @@ const recipes = [
     category:"entrée",
     time:"15 min",
     excerpt:"Tranches de pain grillées, tomates fraîches et ail.",
-    img:"https://images.pixabay.com/photos/2017/03/23/19/57/bruschetta-2169309-640.jpg"
+    img:"https://images.unsplash.com/photo-1599599810694-b5ac4dd0b988?w=400&h=300&fit=crop"
   },
   {
     id:22,
@@ -173,7 +173,7 @@ const recipes = [
     category:"dessert",
     time:"30 min +4h repos",
     excerpt:"Dessert classique française, crème riche et caramel croustillant.",
-    img:"https://images.pixabay.com/photos/2016/12/26/17/28/creme-brulee-1932465-640.jpg"
+    img:"https://images.unsplash.com/photo-1488477181946-6558a6b022e3?w=400&h=300&fit=crop"
   },
   {
     id:23,
@@ -181,7 +181,7 @@ const recipes = [
     category:"plat",
     time:"30 min",
     excerpt:"Riz crémeux, champignons frais et parmesan.",
-    img:"https://images.pixabay.com/photos/2016/03/05/19/02/rice-dish-1238249-640.jpg"
+    img:"https://images.unsplash.com/photo-1621371265537-b65dc338eb1e?w=400&h=300&fit=crop"
   },
   {
     id:24,
@@ -189,7 +189,7 @@ const recipes = [
     category:"entrée",
     time:"40 min",
     excerpt:"Oignons caramélisés, bouillon riche et fromage gratiné.",
-    img:"https://images.pixabay.com/photos/2018/12/02/08/49/onion-soup-3850723-640.jpg"
+    img:"https://images.unsplash.com/photo-1547592166-7aae4d755744?w=400&h=300&fit=crop"
   },
   {
     id:25,
@@ -197,7 +197,7 @@ const recipes = [
     category:"dessert",
     time:"45 min +1h repos",
     excerpt:"Meringue croustillante, crème et fruits colorés.",
-    img:"https://images.pixabay.com/photos/2020/03/14/18/46/pavlova-4931919-640.jpg"
+    img:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop"
   }
 ];
 
